@@ -29,7 +29,7 @@ SECRET_KEY = '7@ke_a$kb12i_lomh4e6sql4u#xb4o-$q&*h0!9ta$)j0)k4*r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.16']
+ALLOWED_HOSTS = ['192.168.1.16', '127.0.0.1']
 
 
 # Application definition
@@ -184,6 +184,9 @@ CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
     ('home.html', 'Home'),
+    ('contacto.html', 'Contacto'),
+    ('servicios.html', 'Servicios'),
+    ('productos.html', 'Productos'),
 
 )
 
