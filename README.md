@@ -5,9 +5,9 @@ Version en construcción de la web creada para el proyecto de ASIR Sumindustrial
 ## Instalacion Python 2.7, el gestor de dependencias pip y la herramienta de entornos virtuales virtualenv en linux y git
 - Instalaciones previas
 sudo apt-get update && sudo apt-get -y upgrade \n
-sudo apt-get install python-pip
-pip install virtualenv
-sudo apt-get install git
+sudo apt-get install python-pip \n
+pip install virtualenv \n
+sudo apt-get install git \n
 
 # Instalacion djangocms
 
